@@ -17,9 +17,15 @@ public class AnimalFarm {
 	public static void main(String[] args) {
 			
 		/* 1. Ask the user which animal they want, then play the sound of that animal. */			 
-			
+			//String JOptionPane.showInputDialog("choose an animal");
 		/* 2. Make it so that the user can keep entering new animals. */
+ playLlama(); 
+System.exit(0);
+	}
 
+	private static void showInputDialog(String string) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	static void playMoo() {
